@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu UMKM F&B</title>
+    <!-- 1. Panggil API/CDN Google Material Symbols -->
+    <link rel="stylesheet" href="https://googleapis.com" />
+    
+    <style>
+        /* Mengubah warna & ukuran ikon agar estetik */
+        .icon-fnb {
+            font-family: 'Material Symbols Outlined';
+            font-size: 48px;
+            color: #ff6b6b; /* Warna pastel merah muda */
+            background-color: #ffe5e5; /* Background lingkaran pastel */
+            padding: 10px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 2. Panggil ikon F&B berdasarkan nama teksnya -->
+    <div>
+        <span class="icon-fnb">bakery_dining</span>
+        <p>Roti & Kue</p>
+    </div>
+
+    <div>
+        <span class="icon-fnb">local_bar</span>
+        <p>Minuman Dingin</p>
+    </div>
+
+    <div>
+        <span class="icon-fnb">ramen_dining</span>
+        <p>Mie & Bakso</p>
+    </div>
+
+</body>
+</html>
