@@ -3,35 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <title>Menu UMKM F&B</title>
-    <!-- 1. Panggil API/CDN Google Material Symbols -->
-    <link rel="stylesheet" href="https://googleapis.com" />
+    
+    <!-- 1. BARIS INI WAJIB ADA: Berfungsi memanggil API font ikon resmi dari Google -->
+    <link href="https://googleapis.com" rel="stylesheet">
     
     <style>
-        /* Mengubah warna & ukuran ikon agar estetik */
+        /* 2. Mengatur tampilan ikon agar berbentuk lingkaran pastel */
         .icon-fnb {
-            font-family: 'Material Symbols Outlined';
+            font-family: 'Material Icons'; /* Menghubungkan teks ke font Google Icons */
             font-size: 48px;
-            color: #ff6b6b; /* Warna pastel merah muda */
-            background-color: #ffe5e5; /* Background lingkaran pastel */
-            padding: 10px;
+            color: #ff6b6b; /* Warna teks ikon pastel */
+            background-color: #ffe5e5; /* Warna latar belakang pastel */
+            padding: 15px;
             border-radius: 50%;
+            display: inline-block;
+        }
+        
+        .menu-item {
+            margin-bottom: 20px;
+            font-family: sans-serif;
         }
     </style>
 </head>
 <body>
 
-    <!-- 2. Panggil ikon F&B berdasarkan nama teksnya -->
-    <div>
+    <!-- 3. Memanggil ikon dengan menyertakan class "icon-fnb" -->
+    <div class="menu-item">
         <span class="icon-fnb">bakery_dining</span>
         <p>Roti & Kue</p>
     </div>
 
-    <div>
+    <div class="menu-item">
         <span class="icon-fnb">local_bar</span>
         <p>Minuman Dingin</p>
     </div>
 
-    <div>
+    <div class="menu-item">
         <span class="icon-fnb">ramen_dining</span>
         <p>Mie & Bakso</p>
     </div>
